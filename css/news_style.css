@@ -1,0 +1,67 @@
+:root {
+   --text_purple: #6856f0;
+   --text_one: #2d2b39;
+   --text_two: #8a88a4;
+   --text_three: #a0a2b2;
+   --text_four: #706585 ;
+   --text_five: #e6e5f0 ;
+   --text_orange: #f1c265;
+   --text_blue: #5bc4f1;
+   --background_color: #f6f5fb;
+
+   scroll-behavior: smooth;
+}
+
+header .container {
+   background-color: var(--background_color);
+   text-align: center;
+   padding: 6% 0;
+   border-radius: 30px;
+   margin-top: 3%;
+}
+
+header h1 {
+   color: var(--text_four);
+   font-size: 2.7rem;
+   font-weight: 400;
+}
+
+.our_blog {
+   border: none;
+}
+
+.our_blog .middle .container {
+   padding: 0 5%;
+   flex-wrap: wrap;
+}
+
+.our_blog .middle .sector {
+   width: 26%;
+   border-radius: 7px;
+   margin-bottom: 4%;
+}
+
+.our_blog .middle .sector p {
+   padding-bottom: 5%;
+}
+
+.our_blog .middle .sector span {
+   font-size: 1.2rem;
+}
+
+@media (max-width:1250px) {
+
+   .our_blog .container .sector {
+      width: 45%;
+      margin: 3% 1%;
+   }
+
+}
+
+@media (max-width:750px) {
+   .our_blog .container .sector {
+      width: 90%;
+      margin: 5% 5%;
+   }
+
+}

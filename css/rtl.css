@@ -1,0 +1,23 @@
+body {
+    direction: rtl;
+}
+
+.our_blog {
+    direction: ltr;
+}
+
+
+.contact_us h2::after, 
+.serve_you h2::after,
+.dynamic h2::after,
+.our_blog .top h2::after {
+    right: 0;
+}
+
+/* nav .middle ul a {
+    font-size: 1.3rem!important;
+} */
+
+.about_us {
+    direction: ltr;
+}
