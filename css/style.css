@@ -249,6 +249,14 @@ padding-top: 3%;
    justify-content: space-evenly;
 }
 
+.great_companies .sss{
+   align-items: center;
+}
+
+.great_companies .ddd {
+   width: 400px;
+}
+
 /* provid styles */
 
 .provid {
@@ -947,6 +955,15 @@ footer .go_up button:hover {
    .great_companies .right {
       width: 100%;
    }
+
+   .great_companies .sss{
+      width: 200px;
+   }
+
+   .great_companies .ddd {
+      margin: 0 auto;
+   }
+
    .provid {
       flex-direction: column;
       text-align: center;
@@ -1055,6 +1072,16 @@ footer .go_up button:hover {
    .great_companies .right img {
       width: 60%;
    }
+   .great_companies .ddd {
+      width: 300px;
+   }
+   /* .great_companies .sss{
+      width: fit-content;
+   } */
+   .great_companies .sss > div:first-child{
+      width: 100px;
+   }
+
    .serve_you .right img {
       width: 60%;
    }
